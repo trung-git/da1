@@ -115,7 +115,7 @@ const RegisterPage = () => {
               />
               Submit
             </Button>
-            <Alert show={true} variant="danger">
+            <Alert className="mt-3" show={true} variant="danger">
                 User with that email already exists!
             </Alert>
             <Alert show={true} variant="info">

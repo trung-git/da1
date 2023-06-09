@@ -1,5 +1,4 @@
 import { Outlet, Navigate } from "react-router-dom";
-import UserChatComponent from "./user/UserChatComponent";
 
 const ProtectedRoutesComponent = ({ admin }) => {
   if (admin) {
@@ -9,7 +8,7 @@ const ProtectedRoutesComponent = ({ admin }) => {
     let userAuth = true;
     return userAuth ? (
       <>
-        <UserChatComponent /> <Outlet />
+        <Outlet />
       </>
     ) : (
       <Navigate to="/login" />

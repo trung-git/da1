@@ -66,7 +66,7 @@ const LoginPage = () => {
               />
               Login
             </Button>
-            <Alert show={true} variant="danger">
+            <Alert className="mt-3" show={true} variant="danger">
                 Wrong credentials
             </Alert>
           </Form>

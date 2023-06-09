@@ -183,7 +183,7 @@ const AdminEditProductPage = () => {
                     </Col>
                     
                 </Row>
-              <Form.Control required type="file" multiple />
+              <Form.Control className="mt-2" required type="file" multiple />
             </Form.Group>
             <Button variant="primary" type="submit">
               UPDATE
